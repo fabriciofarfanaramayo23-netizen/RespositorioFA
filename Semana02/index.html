@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>Home</ul>
+        <ul>Organizacion</ul>
+        <ul>Equipo de Trabajo</ul>
+    </nav>
+    <header>
+        <h1>Portal de la Escuela Profesional de ingenieria de Sistemas</h1>
+    </header>
+    <main>
+        <div>
+            <h2>REGISTRO DE ALUMNOS</h2>
+            <form>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Ej. Alex" required
+                pattern="^[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+$">
+                <br>
+                <label for="ap-paterno">Apellido paterno</label>
+                <input type="text" name="ap-paterno" placeholder="Ej. Perez" required
+                pattern="^[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+$">
+                <br>
+                <label for="ap-paterno">Apellido materno</label>
+                <input type="text" name="ap-materno" placeholder="Ej. Valera" required
+                pattern="^[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+$">
+                <br>
+                <label for="Edad">Edad</label>
+                <input type="number" name="Edad" placeholder="Ej. 20" required>
+                <br>
+                <label for="Email">Email</label>
+                <input type="text" name="Email" placeholder="Ej. xxxx@gmail.com" required>
+                <br>
+                <label>
+                <input type="radio" name="Genero" value="M">
+                masculino
+                </label>
+                <label>
+                <input type="radio" name="Genero" value="F">
+                femenino
+                </label>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
